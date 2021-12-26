@@ -58,6 +58,17 @@ body {
   height: 150px;
 }
 
+.character-img img:hover {
+  transform-origin: 50% 50%;
+  animation: 1s infinite bounce;
+}
+
+@keyframes bounce {
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
 #weather {
   margin-top: 20px;
 }
